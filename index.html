@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Something (Barely) Creative</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Oswald|Handlee' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Want to Enter Space?</h1>
+		<img id="planet-img" height="500px" width="600px" src="https://goo.gl/bewo13">
+		<p id="question1">On a scale 1 - 10, how bad do you want to go to space?</p>
+		<div class="form" id="scale-form">
+      		<input type="number" id="scale" placeholder="Pick a number.">
+      		<button id="scale-submit" class="btn btn-default btn-lg">Send Me on a Trip!</button>
+    	</div>
+    	<p id="question2" style="display: none;">Is Pluto still a planet? 1 for yes, 2 for no.</p>
+    	<div class="form" id="pluto-form" style="display: none;">
+      		<input type="number" id="pluto" placeholder="Yes or No?">
+      		<button id="pluto-submit" class="btn btn-default btn-lg">Send Me on a Trip!</button>
+    	</div>
+    	<div id="answer" class="answer-text"></div>
+	</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

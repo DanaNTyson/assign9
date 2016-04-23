@@ -1,0 +1,55 @@
+body {
+	background-color: #7593AA;
+}
+
+.container {
+	width: 650px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container h1 {
+	color: #010E18;
+	font-family: 'Oswald', sans-serif;
+}
+
+.container img {
+	border-radius: 5%;
+}
+
+p {
+	color: #010E18;
+	font-family: 'Handlee', cursive;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+input {
+	height: 50px;
+	width: 245px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 20px; 
+}
+
+.answer-text {
+	margin: 10px;
+	color: #010E18;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+.hide {
+	display: none;
+}
+
+.form {
+	margin: 25px;
+	color: #1D0014;
+	font-family: 'Handlee', cursive;
+	font-size: 25px; 
+}
+
+.darken {
+	opacity: 0.7;
+}
